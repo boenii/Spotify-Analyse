@@ -11,6 +11,7 @@ filepath_folder = 'd:\privat\Visual Studio Code\spotify-JSON-ANALyse\MyData'
 period = "this year" # "this year" or "last 365 days"
 artist = "Killstation"
 
+
 while filenumber <= 5:
     filepath_json = filepath_folder+'\StreamingHistory'+str(filenumber)+'.json'
 
