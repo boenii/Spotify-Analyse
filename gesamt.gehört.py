@@ -5,9 +5,10 @@ m = 0
 listened = 0
 listened_time = 0
 
+filepath_folder = 'd:\privat\Visual Studio Code\spotify-JSON-ANALyse\MyData'
 
 while filenumber<=5:
-    filepath_json = 'd:\privat\Visual Studio Code\spotify-JSON-ANALyse\MyData\StreamingHistory'+str(filenumber)+'.json'
+    filepath_json = filepath_folder+'\StreamingHistory'+str(filenumber)+'.json'
 
     with open(filepath_json, 'r', errors='ignore') as json_file:
         json_load = json.load(json_file)
